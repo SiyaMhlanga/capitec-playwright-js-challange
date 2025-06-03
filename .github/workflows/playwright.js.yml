@@ -4,6 +4,7 @@
 name: Playwright JS Challange Tests
 
 on:
+  workflow_dispatch:
   push:
     branches: [ "main" ]
   pull_request:
