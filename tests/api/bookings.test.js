@@ -77,10 +77,12 @@ test.describe.serial('CRUD Booking API Tests', () => {
     });
 
     test('Delete the booking (DELETE) request', async () => {
-        const response = await bookingClient.deletBooking(bookingId, token)
+        const response = await bookingClient.deletBooking(bookingId, token);
+        expect(response.ok()).toBeTruthy();
+        expect([200,201]).toContain(response.status());
         expect(response.ok()).toBeTruthy();
 
         const confirmDeletedBooking = await bookingClient.getBookingById(bookingId);
-        expect(confirmDeletedBooking.status()).toBe(404)
+        expect(confirmDeletedBooking.status()).toBe(404);
     });
 });
