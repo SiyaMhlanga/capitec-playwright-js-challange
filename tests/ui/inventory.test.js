@@ -3,7 +3,7 @@ import { LoginPage } from "../../src/page-objects/login.page.js";
 import { InventoryPage } from "../../src/page-objects/inventory.page.js";
 import uiCredentials from "../../test-data/uiCredentials.json" assert { type: "json" };
 
-test.describe.serial("UI Invetory Test Flow", () => {
+test.describe.serial("UI Invetory Tests", () => {
   test.beforeEach(async ({ page }) => {
     const loginPage = new LoginPage(page);
     const inventoryPage = new InventoryPage(page);
