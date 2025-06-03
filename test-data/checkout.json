@@ -1,9 +1,7 @@
 {
-"data": 
-    {
-        "firstName": "Peter Steph",
-        "lastName": "Du Toit",
-        "zipCode": "8754"
-    }   
-
+  "data": {
+    "firstName": "Peter Steph",
+    "lastName": "Du Toit",
+    "zipCode": "8754"
+  }
 }
