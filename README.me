@@ -83,4 +83,7 @@ You don’t need to install or configure Playwright on your local system to run 
 
 Exapmle of generated report of executed tests:
 
-![Monocart report](./readme-screenshots/Screenshot 2025-06-03 at 16.07.15.png)
+![image](reportScreenshot.png)
+
+Github Actions Workflow:
+![image](screenshot of github actions for workflow.png)
