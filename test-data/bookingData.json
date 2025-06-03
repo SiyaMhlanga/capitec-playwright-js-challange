@@ -8,7 +8,7 @@
       "checkin": "2025-06-10",
       "checkout": "2025-06-13"
     },
-    "additionalneeds": "Best Passing Game"
+    "additionalneeds": "Breakfast"
   },
   "updateBooking": {
     "firstname": "Siya",
@@ -19,7 +19,7 @@
       "checkin": "2025-06-05",
       "checkout": "2025-06-07"
     },
-    "additionalneeds": "Best Stepper Ever"
+    "additionalneeds": "Lunch"
   },
 
   "authenticateCredentials": {
