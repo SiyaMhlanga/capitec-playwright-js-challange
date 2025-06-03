@@ -1,1 +1,0 @@
-# capitec-playwright-js-challange
