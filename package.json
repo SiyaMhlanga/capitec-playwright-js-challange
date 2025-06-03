@@ -1,0 +1,18 @@
+{
+  "name": "capitecplaywrightjschallange",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "npx playwright test tests/ui/auth.test.js",
+    "test:api": "npx playwright test tests/api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.29",
+    "monocart-reporter": "^2.9.20"
+  }
+}
