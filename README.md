@@ -83,7 +83,7 @@ You don’t need to install or configure Playwright on your local system to run 
 
 Exapmle of generated report of executed tests:
 
-![image](reportScreenshot.png)
+![image](./screenshots/reportScreenshot.png)
 
 Github Actions Workflow:
-![image](screenshot of github actions for workflow.png)
+![image](./screenshots/githubActionsWorkflowSnip.png)
